@@ -1,1 +1,2 @@
-# Dstributed Transaction with Saga Pattern Using MassTransit, Asp.net Core and RabbitMQ
+# Distributed Transaction with Saga Pattern Using MassTransit, Asp.net Core and RabbitMQ
+distributed insert transaction between 3 databse with same model. for implement Saga Pattern used Masstransit Framework and Courier feature.
