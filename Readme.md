@@ -1,6 +1,6 @@
 # Distributed Transaction with Saga Pattern Using MassTransit, Asp.net Core and RabbitMQ
 distributed insert transaction between 3 databse with same model. for implement Saga Pattern used Masstransit Framework and Courier feature.
-<div dir="rtl">
+
 ## 1-1 فرم تنظیمات
 این فرم محلی برای تعیین انواع مختلف استعلامات و تنظیماتی است که توسط شهرداری یا توسط ادارات و دفاتر مختلف از شهرداری انجام می‌شود و شامل دو بخش **لیست** و **ثبت** است.
 ### 1-1-1 اقلام اطلاعاتی
@@ -16,5 +16,4 @@ distributed insert transaction between 3 databse with same model. for implement 
 - **مدت اعتبار پاسخ**** :** برای استعلامات ورودی منظور از مدت اعتبار، مدت زمانیست که پاسخی که شهرداری ارسال می‌کند دارای اعتبار است و برای استعلامات خروجی، مدت اعتبار پاسخی که سایر ادارات به شهرداری ارسال می‌کنند مدنظر است.
 - **مهلت پاسخ**** :** مدت زمانی که برای هر استعلام تعیین می‌شود تا پاسخی برای آن (چه از طرف شهرداری و چه سایر ادارات) تعیین شود.
 - **نوع پاسخ**** :** به ازای هر موضوع شهرداری بایستی مشخص شود عدم پاسخگویی در مهلت مقرر ملزم به تأیید یا عدم تأیید است یا خیر؟.
- 
-</div>
+
